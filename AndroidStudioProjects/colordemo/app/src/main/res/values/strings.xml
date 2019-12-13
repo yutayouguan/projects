@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">背景颜色练习</string>
+    <string name="c_R">红:</string>
+    <string name="c_G">绿:</string>
+    <string name="c_B">蓝:</string>
+    <string name="b1">变化</string>
+    <string name="b2">恢复</string>
+    <string name="v1">\?</string>
+    <string name="opacity">不透明度:</string>
+</resources>

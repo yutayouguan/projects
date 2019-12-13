@@ -1,0 +1,31 @@
+package ml.yike.thread;
+
+
+class TicketSale extends Thread{
+	static int num = 50;
+
+	
+	public TicketSale(String nameString)
+	{
+		super(nameString);		
+	}
+	
+	@Override
+	public void run() {
+		if (num>0) {
+			System.out.println();
+		}
+
+	}
+	
+	
+	
+}
+
+public class Demo4 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

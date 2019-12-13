@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">按钮练习</string>
+    <string name="hello">你好Android</string>
+    <string name="large">放大🔍</string>
+    <string name="small">缩小🔍</string>
+</resources>

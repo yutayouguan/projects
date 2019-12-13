@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    按钮正常显示-->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <!--        设置是个角的弧度-->
+            <corners android:radius="@dimen/radio" />
+            <!--        设置渐变填充-->
+            <gradient android:angle="45" android:endColor="@color/colorButton_e" android:startColor="@color/colorButton_s" android:type="linear" />
+            <!--设置单色填充-->
+            <!--<solid android:color="@color/colorButton_e"/>-->
+            <!--        设置内边距-->
+            <padding android:left="@dimen/P_L" android:right="@dimen/P_R" />
+            <!--        设置图性边框-->
+            <!--            <stroke android:width="1dp" android:color="@color/colorPrimary" android:dashWidth="1dp" android:dashGap="1dp"/>-->
+        </shape>
+    </item>
+    <!--    按钮按下时显示-->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radio" />
+            <gradient android:angle="-45" android:endColor="@color/colorButton_s" android:startColor="@color/colorButton_e" android:type="linear" />
+            <padding android:left="@dimen/P_L" android:right="@dimen/P_R" />
+        </shape>
+
+    </item>
+
+    <!--    按钮不可点击时-->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radio" />
+            <solid android:color="@color/colorButton_no" />
+            <padding android:left="@dimen/P_L" android:right="@dimen/P_R" />
+        </shape>
+
+    </item>
+</selector>

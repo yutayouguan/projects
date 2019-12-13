@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">蒙特卡洛算法计算π</string>
+    <string name="tr1">请输入点数</string>
+    <string name="cal">计算</string>
+    <string name="recover">复位</string>
+    <string name="Ms_t">温馨提示!</string>
+    <string name="Ms_M1">请输入点数!</string>
+    <string name="Ms_M2">点数越大,求的值越精确哦!(建议1000及以上)</string>
+    <string name="Ms_M3">你确定要复位吗!</string>
+    <string name="Ms_M4">已经复位!</string>
+    <string name="Ms_M5">你已经取消了该操作!</string>
+
+    <string name="define">确定</string>
+    <string name="cancel">取消</string>
+</resources>

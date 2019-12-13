@@ -1,0 +1,32 @@
+package ml.yike.thread;
+
+import sun.tools.tree.ThisExpression;
+
+class TicketSale extends Thread{
+	static int num = 50;
+
+	
+	public TicketSale(String nameString)
+	{
+		super(nameString);		
+	}
+	
+	@Override
+	public void run() {
+		if (num>0) {
+			System.out.println(this.getName()+"在售第"+num--+"张票。");
+		}
+
+	}
+	
+	
+	
+}
+
+public class Demo4 {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

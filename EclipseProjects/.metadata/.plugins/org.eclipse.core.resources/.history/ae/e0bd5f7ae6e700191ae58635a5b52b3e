@@ -1,0 +1,9 @@
+package ml.yike.collelction;
+
+public class Demo2 {
+	
+	public static void main(String[] args) {
+		
+	} 
+
+}

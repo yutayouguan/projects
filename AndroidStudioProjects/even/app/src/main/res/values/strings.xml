@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">事件处理练习</string>
+    <string name="start">启动</string>
+    <string name="stop">复位</string>
+    <string name="text1">简易计时器,点击开始计时,点击结束计时,点击数字暂停计时,点击继续,继续计时.</string>
+    <string name="colon">:</string>
+    <string name="zero">00</string>
+    <string name="name">姓名</string>
+    <string name="pwd">密码</string>
+    <string name="tip1">请输入姓名</string>
+    <string name="tip2">请输入密码</string>
+</resources>

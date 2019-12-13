@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Yard",
+            "request": "launch",
+            "mainClass": "Yard",
+            "projectName": "snake_1937f55d"
+        }
+    ]
+}

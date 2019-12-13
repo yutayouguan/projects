@@ -1,0 +1,23 @@
+package ml.yike.collelction;
+
+/*作业2：使用集合实现注册登陆功能，
+
+第一步： 提示用户选择功能， A（注册）  B(登陆) 。 要求： 功能选择 的时候要忽略大小写。
+
+
+注册：
+	1. 提示用户输入注册的账号(数字)与密码，如果输入的id号已经存在集合中，提示用户重新输入。 注册完毕之后，把集合中的所有用户信息打印出来。(使用：toArrry()方法)	
+
+登陆： 
+	提示用户输入登陆的账号与密码,如果账号与密码这个用户已经存在集合中，那么登陆成功，否则登陆失败。*/
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+		System.out.println("😀😬😁😂😃😄😅😆😇😉😊😛😡"); 
+		System.out.println("😎请选择功能：A：注册   B：登录😎");
+		System.out.println("☺️😋😌😍😘😗😙😚😜😝😛😠😡");
+
+	}
+
+}

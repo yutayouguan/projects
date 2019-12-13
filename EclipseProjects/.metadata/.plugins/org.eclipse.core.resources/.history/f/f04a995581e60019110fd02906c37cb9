@@ -1,0 +1,41 @@
+package ml.yike.thread;
+
+class TicketSale extends Thread{
+	static int num = 50;
+
+	
+	public TicketSale(String nameString)
+	{
+		super(nameString);		
+	}
+	
+	@Override
+	public void run() {
+		while (true) {
+			if (num>0) {
+				System.out.println(this.getName()+"在售第"+num--+"张票。");
+			}
+			else {
+				System.out.println("票售罄了！！");
+			}
+			
+		}
+	
+	}
+	
+	
+	
+}
+
+public class Demo4 {
+	
+	public static void main(String[] args) {
+		TicketSale ticketSale1 =new TicketSale("窗口1");
+		TicketSale ticketSale2 =new TicketSale("窗口2");
+		TicketSale ticketSale3 =new TicketSale("窗口3");
+		ticketSale1.start();
+		ticketSale2.start();
+		ticketSale3.start();
+	}
+
+}

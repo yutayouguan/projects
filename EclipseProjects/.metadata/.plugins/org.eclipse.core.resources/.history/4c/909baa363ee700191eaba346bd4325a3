@@ -1,0 +1,29 @@
+package mi.yike.thread;
+
+/**
+ * @author wangmeng
+ *守护线程（后台线程）：主程序结束，它也结束
+ *
+ */
+
+ class Update implements Runnable{
+boolean flag = true;
+	public void run() {
+		while (flag) {
+			int i=0;
+	for ( i = 0; i <=100; i++) {
+		System.out.println("后台更新已经完成%"+i+".");
+	}
+			if (i==100) {
+				System.out.println("下载完成，将自动完成安装更新！");
+			}
+		}
+	};
+}
+
+public class Demo3 {
+	public static void main(String[] args) {
+		
+	}
+
+}

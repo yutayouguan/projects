@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='按钮练习'

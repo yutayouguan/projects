@@ -1,0 +1,31 @@
+package mi.yike.thread;
+
+/**
+ * @author wangmeng
+ *join 方法
+ */
+
+class mom extends Thread{
+public mom(String name) {
+	super(name);
+	// TODO Auto-generated constructor stub
+	
+}
+	
+	
+	
+}
+
+class son extends Thread{
+	public son(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
+public class Demo4 {
+public static void main(String[] args) {
+	
+}
+}

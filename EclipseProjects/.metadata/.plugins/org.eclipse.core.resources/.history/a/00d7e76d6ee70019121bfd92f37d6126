@@ -1,0 +1,34 @@
+package ml.yike.collelction;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+
+/**
+ * @author wangmeng
+ *----|collection  单例集合的根接口
+ *-----|list  如果实现了List接口的集合类，该集合具备的特点：有序、可重复
+ *-----|set 如果实现了set接口的集合类，该集合具备的特点：无序、不可重复
+ *Collection --- 的迭代方法
+ *toArray()  返回把数据存储在一个object类型的数组中在返回，Object[] 可以存储任意类型的数据
+ *iterator() 迭代器的作用，用来抓取集合中的元素
+ */
+public class Demo1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Collection collection =new  ArrayList();
+collection.add("亦可");
+collection.add("王星");
+collection.add("小可");
+collection.add("李可");
+//遍历集合的元素----|方式一：可以使用toArray方法
+Object[] arr=collection.toArray(); //把集合的元素存储到object的数组中返回。
+System.out.println(Arrays.toString(arr));
+//遍历集合的元素----|方式二：可以使用iterator方法(迭代器遍历）
+Iterator iterator = new 
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package mi.yike.thread;
+
+/**
+ * @author wangmeng
+ *join 方法
+ */
+
+class mom extends Thread{
+
+	
+	
+	
+}
+
+class son extends Thread{
+	
+	
+	
+}
+public class Demo4 {
+public static void main(String[] args) {
+	
+}
+}

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.2.0'?>
+<repository name='file:/Users/wangmeng/Workspaces/Eclipse2019.6/.metadata/.plugins/org.eclipse.pde.core/tempp2metadata - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1569049431629'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='1'>
+    <unit id='com.jkb.dashlookup' version='1.0.6' generation='2'>
+      <update id='com.jkb.dashlookup' range='[0.0.0,1.0.6)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='DashLookup'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Quaerendo Games'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jkb.dashlookup' version='1.0.6'/>
+        <provided namespace='osgi.bundle' name='com.jkb.dashlookup' version='1.0.6'/>
+        <provided namespace='osgi.identity' name='com.jkb.dashlookup' version='1.0.6'>
+          <properties size='1'>
+            <property name='type' value='osgi.bundle'/>
+          </properties>
+        </provided>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='java.package' name='org.eclipse.ui.texteditor' range='0.0.0'/>
+        <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=1.6))'/>
+      </requires>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jkb.dashlookup' version='1.0.6'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jkb.dashlookup;singleton:=true&#xA;Bundle-Version: 1.0.6&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+  </units>
+</repository>

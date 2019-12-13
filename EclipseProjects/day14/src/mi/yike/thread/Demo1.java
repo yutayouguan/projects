@@ -1,0 +1,53 @@
+package mi.yike.thread;
+
+/**
+ * @author wangmeng
+ * 
+ *         创建线程的第二种方法： 
+ *         1.自定义一个类实现Runnable接口
+ *         2.实现runnable接口的run方法，把自定义线程的任务写在run方法上
+ *          3.创建runnable实现类对象
+ *         4.创建thread类的对象，并且把runnable实现类的对象作为实参传递 
+ *         5.调用thread对象的start方法开启一个线程
+ * 推荐使用第二种：
+ * 原因：JAVA是单继承，多实现的，实现体现灵活性
+ * 
+ *
+ */
+
+class TricketSales implements Runnable {
+	int num = 20;  //只创建了一个对象，数据只有一份
+
+	/**
+	 *
+	 */
+	@Override
+	public void run() {
+		while (true) {
+
+			synchronized ("🔒") {
+
+				if (num > 0) {
+					System.out.println(Thread.currentThread().getName() + "卖出第" + num + "张票");
+					num--;
+				} else {
+					System.out.println("票售罄了！！");
+					break;
+				}
+			}
+		}
+	}
+}
+
+public class Demo1 {
+	public static void main(String[] args) {
+		TricketSales tricketSales = new TricketSales();  //只创建了一个对象
+		Thread thread1 = new Thread(tricketSales, "窗口1");
+		Thread thread2 = new Thread(tricketSales, "窗口2");
+		Thread thread3 = new Thread(tricketSales, "窗口3");
+		thread1.start();
+		thread2.start();
+		thread3.start();
+
+	}
+}

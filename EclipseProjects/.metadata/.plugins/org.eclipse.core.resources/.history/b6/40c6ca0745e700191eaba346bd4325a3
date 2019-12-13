@@ -1,0 +1,41 @@
+package mi.yike.thread;
+
+/**
+ * @author wangmeng
+ *join 方法
+ */
+
+class mom extends Thread{
+public mom(String name) {
+	super(name);
+	// TODO Auto-generated constructor stub
+}
+	@Override
+		public void run() {
+		System.out.println("妈妈注备做饭！");
+		System.out.println("妈妈煮饭！");
+		System.out.println("妈妈洗菜！");
+		System.out.println("妈妈炒菜！");//发现酱油没有了，叫儿子去买酱油
+		System.out.println("妈妈洗菜！");
+		System.out.println("妈妈洗菜！");
+		}
+	
+}
+
+class son extends Thread{
+	public son(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+	
+}
+public class Demo4 {
+public static void main(String[] args) {
+	
+}
+}
