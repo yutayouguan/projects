@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFC107</color>
+    <color name="colorPrimaryDark">#FFC107</color>
+    <color name="colorAccent">#FFEB3B</color>
+    <color name="tropical_blue">#C7E3F5</color>
+    <color name="baby_pink">#F1C6C3</color>
+    <color name="botticelli">#C4DBE2</color>
+</resources>

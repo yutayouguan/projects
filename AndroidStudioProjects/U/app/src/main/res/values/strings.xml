@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">U记录</string>
+    <string name="name">👤姓名:</string>
+    <string name="inputname">请输入姓名</string>
+    <string name="tel">📞电话:</string>
+    <string name="inputtel">199****1504</string>
+    <string name="email">✉️Email:</string>
+    <string name="inputemail">xxx@yyyy.zzz</string>
+</resources>
