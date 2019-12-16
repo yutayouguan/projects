@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    不可点击时,必须最先设置,否则不会生效-->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radio" />
+            <!--            <gradient android:angle="45" android:startColor="@color/baby_pink" android:endColor="@color/tropical_blue" android:type="linear"/>-->
+            <solid android:color="@color/botticelli" />
+        </shape>
+    </item>
     <item android:state_pressed="false">
         <shape android:shape="rectangle">
             <corners android:radius="@dimen/radio" />
@@ -12,11 +20,5 @@
             <gradient android:angle="45" android:endColor="@color/tropical_blue" android:startColor="@color/baby_pink" android:type="linear" />
         </shape>
     </item>
-    <item android:state_enabled="false" >
-        <shape android:shape="rectangle">
-            <corners android:radius="@dimen/radio" />
-            <!--            <gradient android:angle="45" android:startColor="@color/baby_pink" android:endColor="@color/tropical_blue" android:type="linear"/>-->
-            <solid android:color="@color/botticelli" />
-        </shape>
-    </item>
+
 </selector>
